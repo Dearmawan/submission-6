@@ -240,8 +240,8 @@ Berikut adalah hasil evaluasi pada data uji untuk keempat model (KNN, RF Baselin
     * TP (Diprediksi 1, Aktual 1): 33
     Total = 83 + 17 + 21 + 33 = 154 (sesuai jumlah data uji)
 * Classification Report (Kelas 1 - Diabetes): Precision 0.66, Recall 0.61, F1-Score 0.63.
-  ![image](https://github.com/user-attachments/assets/23b488bd-1924-47ae-a5e8-9ce2dc49cbff)
-
+  
+![image](https://github.com/user-attachments/assets/23b488bd-1924-47ae-a5e8-9ce2dc49cbff)
 
 **2. Random Forest (Baseline):**
 * Accuracy: 0.7662
