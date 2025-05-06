@@ -79,7 +79,8 @@ Dataset ini terdiri dari **768 sampel** (baris data) dan **9 fitur** (kolom), te
 
 * **Korelasi Fitur:** Heatmap korelasi menunjukkan korelasi positif yang cukup kuat antara `Glucose` dan `Outcome` (0.47), diikuti oleh `BMI` (0.29), `Age` (0.24), dan `Pregnancies` (0.22). Fitur `BloodPressure`, `SkinThickness`, dan `Insulin` memiliki korelasi yang lebih lemah terhadap `Outcome`. Tidak ada korelasi antar fitur independen yang sangat tinggi (multicollinearity) yang mengharuskan penghapusan fitur.
 
-*(Catatan: Dalam format Markdown, Anda bisa menyisipkan gambar plot langsung di sini jika Anda memilikinya dalam file gambar, misalnya: `![Histogram Fitur](path/to/your/histograms.png)`)*
+![image](https://github.com/user-attachments/assets/2c68ace5-c54f-44f9-8364-92ff81b2e2c9)
+
 
 ## Data Preparation
 
