@@ -271,6 +271,8 @@ Berikut adalah hasil evaluasi pada data uji untuk keempat model (KNN, RF Baselin
     * TP (Diprediksi 1, Aktual 1): 31
 * Classification Report (Kelas 1 - Diabetes): Precision 0.67, Recall 0.57, F1-Score 0.62.
 
+![image](https://github.com/user-attachments/assets/7af08cd3-fdce-429c-9508-09b457ce7a2b)
+
 **4. Logistic Regression:**
 * Accuracy: 0.7143
 * Precision (Diabetes, Class 1): 0.6087
@@ -284,7 +286,7 @@ Berikut adalah hasil evaluasi pada data uji untuk keempat model (KNN, RF Baselin
     * TP (Diprediksi 1, Aktual 1): 28
 * Classification Report (Kelas 1 - Diabetes): Precision 0.61, Recall 0.52, F1-Score 0.56.
 
-  ![image](https://github.com/user-attachments/assets/d6b6a5b7-f6e7-4985-bb69-0d9818fb1764)
+![image](https://github.com/user-attachments/assets/d6b6a5b7-f6e7-4985-bb69-0d9818fb1764)
 
 
 
