@@ -75,7 +75,7 @@ Dataset ini terdiri dari **768 sampel** (baris data) dan **9 fitur** (kolom), te
     1    268
     Name: Outcome, dtype: int64
     ```
-  ![image](https://github.com/user-attachments/assets/3c28d67b-86c0-4475-ba53-6e6d3aea2a86)
+![image](https://github.com/user-attachments/assets/3c28d67b-86c0-4475-ba53-6e6d3aea2a86)
 
 * **Korelasi Fitur:** Heatmap korelasi menunjukkan korelasi positif yang cukup kuat antara `Glucose` dan `Outcome` (0.47), diikuti oleh `BMI` (0.29), `Age` (0.24), dan `Pregnancies` (0.22). Fitur `BloodPressure`, `SkinThickness`, dan `Insulin` memiliki korelasi yang lebih lemah terhadap `Outcome`. Tidak ada korelasi antar fitur independen yang sangat tinggi (multicollinearity) yang mengharuskan penghapusan fitur.
 
@@ -255,6 +255,8 @@ Berikut adalah hasil evaluasi pada data uji untuk keempat model (KNN, RF Baselin
     * FN (Diprediksi 0, Aktual 1): 22
     * TP (Diprediksi 1, Aktual 1): 32
 * Classification Report (Kelas 1 - Diabetes): Precision 0.70, Recall 0.59, F1-Score 0.64.
+
+![image](https://github.com/user-attachments/assets/3a92e846-4eca-4471-bc4f-f4a7df91f9e0)
 
 **3. Random Forest (Tuned):**
 * Accuracy: 0.7597
