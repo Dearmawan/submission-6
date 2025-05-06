@@ -20,8 +20,8 @@ Bagian ini menjelaskan proses klarifikasi masalah yang ingin diselesaikan.
 Berdasarkan latar belakang di atas, masalah yang ingin diselesaikan adalah:
 
 1.  Bagaimana cara membangun model machine learning yang efektif untuk memprediksi keberadaan penyakit diabetes pada pasien berdasarkan fitur-fitur diagnostik yang tersedia dalam dataset?
-2.  Fitur diagnostik manakah yang paling berpengaruh dalam memprediksi diabetes menurut model yang dibangun? (Meskipun tidak diimplementasikan secara eksplisit di kode dasar, ini adalah pertanyaan bisnis yang relevan).
-3.  Algoritma klasifikasi manakah (misalnya antara K-Nearest Neighbors dan Random Forest) yang memberikan performa terbaik dalam kasus prediksi diabetes ini, berdasarkan metrik evaluasi yang relevan?
+2.  Fitur diagnostik manakah yang paling berpengaruh dalam memprediksi diabetes menurut model yang dibangun? 
+3.  Algoritma klasifikasi manakah (misalnya antara K-Nearest Neighbors, Logistic Regression, dan Random Forest) yang memberikan performa terbaik dalam kasus prediksi diabetes ini, berdasarkan metrik evaluasi yang relevan?
 
 ### Goals
 
@@ -75,6 +75,8 @@ Dataset ini terdiri dari **768 sampel** (baris data) dan **9 fitur** (kolom), te
     1    268
     Name: Outcome, dtype: int64
     ```
+  ![image](https://github.com/user-attachments/assets/3c28d67b-86c0-4475-ba53-6e6d3aea2a86)
+
 * **Korelasi Fitur:** Heatmap korelasi menunjukkan korelasi positif yang cukup kuat antara `Glucose` dan `Outcome` (0.47), diikuti oleh `BMI` (0.29), `Age` (0.24), dan `Pregnancies` (0.22). Fitur `BloodPressure`, `SkinThickness`, dan `Insulin` memiliki korelasi yang lebih lemah terhadap `Outcome`. Tidak ada korelasi antar fitur independen yang sangat tinggi (multicollinearity) yang mengharuskan penghapusan fitur.
 
 *(Catatan: Dalam format Markdown, Anda bisa menyisipkan gambar plot langsung di sini jika Anda memilikinya dalam file gambar, misalnya: `![Histogram Fitur](path/to/your/histograms.png)`)*
